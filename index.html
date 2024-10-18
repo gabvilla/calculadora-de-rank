@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Calculadora de Rank</title>
+</head>
+<body>
+   <main>
+      <header>
+         <h1 id="title">Calculadora de Rank</h1>
+      </header>
+      <form class="form">
+         <fieldset>
+            <label for="name">Insira seu nick:</label>
+            <input type="text" id="name" name="name" required="true" placeholder="Roberto do Grau">
+            <label for="victories">Partidas vencidas:</label>
+            <input type="number" id="victories" name="victories" required="true" placeholder="100">
+            <label for="defeats">Partidas perdidas:</label>
+            <input type="number" id="defeats" name="defeats" required="true" placeholder="100">
+         </fieldset>
+         <button id="calculate">Calcular</button>
+         <div class="result"></div>
+      </form>
+   </main>
+   
+   <script src="script.js"></script>
+</body>
+</html>
